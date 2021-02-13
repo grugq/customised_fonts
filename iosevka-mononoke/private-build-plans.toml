@@ -1,0 +1,50 @@
+[buildPlans.iosevka-mononoke]
+family = "Iosevka Mononoke"
+spacing = "normal"
+serifs = "sans"
+
+  [buildPlans.iosevka-mononoke.variants]
+  inherits = "ss12"
+
+    [buildPlans.iosevka-mononoke.variants.design]
+    capital-b = "standard-unilateral-motion-serifed"
+    capital-d = "standard-unilateral-motion-serifed"
+    capital-g = "toothless-corner-serifless-hooked"
+    capital-j = "serifed"
+    capital-r = "straight"
+    capital-z = "curly"
+    a = "double-storey-toothless-corner"
+    g = "double-storey"
+    i = "serifed"
+    k = "symmetric-connected"
+    l = "serifed-tailed"
+    m = "normal"
+    p = "earless-corner"
+    q = "earless-corner"
+    r = "earless-corner"
+    t = "flat-hook"
+    x = "curly"
+    y = "curly-turn"
+    z = "curly"
+    zero = "dotted-oval"
+    one = "base-flat-top-serif"
+    two = "curly-neck"
+    four = "semi-open"
+    five = "oblique-upper-left-bar"
+    seven = "bend-serifed"
+    eight = "two-circles"
+    asterisk = "low"
+    underscore = "high"
+    paren = "large-contour"
+    number-sign = "upright"
+    ampersand = "upper-open"
+    percent = "dots"
+    bar = "force-upright"
+    lig-ltgteq = "slanted"
+    question = "corner-flat-hooked"
+
+    [buildPlans.iosevka-mononoke.variants.oblique]
+    f = "extended"
+
+  [buildPlans.iosevka-mononoke.ligations]
+  inherits = "dlig"
